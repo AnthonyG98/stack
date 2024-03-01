@@ -1,0 +1,18 @@
+.dashboard-container {
+  width: 100%;
+}
+.logo {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(17, 106, 151);
+  width: fit-content;
+}
+#logo-icon {
+  color: #b7b7b7;
+  width: 25px;
+}
+.dashboard-col1-container {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
