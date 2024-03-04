@@ -1,5 +1,8 @@
 .dashboard-container {
   width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
 }
 .logo {
   padding: 10px;
@@ -7,12 +10,67 @@
   border: 2px solid rgb(17, 106, 151);
   width: fit-content;
 }
-#logo-icon {
+.head-icon {
   color: #b7b7b7;
-  width: 25px;
+  width: 25px !important;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.head-icon:hover {
+  color: #ffffff;
+  transition: 0.3s ease;
 }
 .dashboard-col1-container {
   width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dash-col1-row {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#search-input {
+  width: 300px;
+  border-radius: 15px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#search-input::placeholder {
+  font-size: 13px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+}
+#header-icons {
+  display: flex;
+  justify-content: space-between;
+}
+#search-container {
+  width: fit-content;
+  justify-content: flex-end;
+}
+#magnifying-glass {
+  margin-right: 10px;
+}
+.col1-row-icon-container {
+  display: flex;
+  align-items: flex-start;
+}
+.notif {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: center;
+  color: #fff;
+  margin-left: 2px;
 }
